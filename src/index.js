@@ -1,1 +1,5 @@
-console.log("vamos tentar de novo")
+
+let nome = "pedro simoes"
+if (nome==="pedro simoes"){
+    console.log("voce esta barrado")
+}
