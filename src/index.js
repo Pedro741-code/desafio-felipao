@@ -1,45 +1,22 @@
-let restaurnteEscolhidos = "Brasileiro"
-
-
-
-switch (restaurnteEscolhidos) {
-    case "Japones" :
-        console.log("pedir rodizio de sushi");
-        break 
-
-
-        case "Brasileiro":
-            console.log("pedir feijoda");
-            break
-
-            case "churrascaria":
-                console.log("pedir rodizio de churrasco");
-                break
-}
-let sobremesaRestaurantes = "Pudim"
-if (restaurnteEscolhidos === "Brasileiro"){
-    console.log("Aqui temos sua sobremesa: "+ sobremesaRestaurantes)
-}else{
-    console.log("Nao temos essa sobremesa no menu")
-}
-let i = 6 
-  if  (i%2===0){
-    console.log("voces vao sentar em uma mesa redonda, pois voces sao mais de 5")
-
-  }else{
-    console.log("Nao temos mesas pequenas, pode ser o balcao?")
-  }
-
-let pessoasNaMesa = 6
-while (pessoasNaMesa%2===1 && pessoasNaMesa<6){
-    console.log("Está faltando alguém ")
-    if(pessoasNaMesa>6){
-        console.log("quem é esse na nossa mesa?")
-
-    }else if (pessoasNaMesa===6){
-        console.log("esta todos aqui")
-    }
-
+let nomeHeroi = "Felipao"
+let xp =7001
+let nivelHeroi
+if (xp<1000){
+    console.log("Ferro")
+}else if (xp >1000 && xp <= 2000) {
+    nivelHeroi = "Ferro"
+}else if (xp >2000 && xp <=5000){
+    nivelHeroi= "Prata"
+}else if (xp>5000 && xp <=7000){
+    nivelHeroi="Ouro"
+}else if (xp>7000 && xp <=8000){
+    nivelHeroi = "Platina"
+}else if( xp>8000 && xp <= 9000){
+    nivelHeroi= "Ascendente"
+}else if (xp>9000 && xp <=10000){
+    nivelHeroi= "Imortal"
+}else if (xp >10000 ){
+    nivelHeroi="Radiante"
 }
 
-
+console.log("O Herói de nome, " + nomeHeroi + ", está no nível de " + nivelHeroi)
